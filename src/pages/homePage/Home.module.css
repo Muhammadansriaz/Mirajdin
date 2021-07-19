@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.homeText{
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+.headingText{
+  font-size: 55px;
+  font-family: 'Otomanopee One', sans-serif;
+}
+.paraText{
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 480px) {
+  .headingText{
+    font-size: 45px;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  .paraText{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+}

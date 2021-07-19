@@ -1,0 +1,19 @@
+.navbar {
+  background-color: white !important;
+}
+.btn {
+  color: black !important;
+  font-size: 18px !important;
+  padding-left: 10px !important;
+}
+.btn:hover {
+  font-weight: bold;
+}
+.shop {
+  font-size: 18px;
+  font-weight: bold;
+}
+.shop:hover {
+  color: white !important;
+  background-color: rgb(77, 77, 139);
+}

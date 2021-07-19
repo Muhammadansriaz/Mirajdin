@@ -1,0 +1,32 @@
+.aboutHeader {
+  background-color: rgb(77, 77, 139);
+  color: white;
+  padding: 25px;
+  padding-right: 10px;
+  font-size: 42px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.section{
+  padding: 3rem 2.5rem;
+}
+.Container{
+  flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+h2{
+  color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.last{
+  font-weight: 500;
+}

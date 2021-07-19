@@ -1,0 +1,40 @@
+.productHeader {
+  background-color: rgb(77, 77, 139);
+  color: white;
+  padding: 25px;
+  padding-right: 10px;
+  font-size: 42px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.productCard {
+  width: 26rem !important;
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+}
+.cardBtn {
+  background-color: rgb(77, 77, 139);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 8px;
+}
+.cardBtn:hover{
+  background-color: white;
+  color: rgb(77, 77, 139);
+  border: 2px solid rgb(77, 77, 139);
+}
+
+@media screen and (max-width: 480px) {
+  .productCard {
+    width: 16rem !important;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+  }
+}

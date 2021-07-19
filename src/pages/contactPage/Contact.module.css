@@ -1,0 +1,179 @@
+.contactHeader {
+  background-color: rgb(77, 77, 139);
+  color: white;
+  padding: 25px;
+  padding-right: 10px;
+  font-size: 42px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section {
+  padding: 3rem 1.5rem;
+}
+.Container {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+.flx {
+  display: flex;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+.map{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+.contact {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+  margin-left: 40px;
+}
+h1 {
+  margin-bottom: 1.5rem;
+  text-transform: capitalize !important;
+  color: #4a4a4a;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+p {
+  display: block;
+  font-size: 20px;
+  margin-block-start: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  margin-block-end: 1em;
+}
+hr {
+  background-color: whitesmoke;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1.5rem 0;
+}
+.table {
+  margin-bottom: 1.5rem;
+  background-color:whitesmoke;
+  color: #363636;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td {
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+i{
+  margin-right: 15px;
+  font-size: 25px !important;
+}
+iframe{
+  border: 1px solid lightgrey !important;
+}
+@media screen and (max-width: 1000px) {
+  .section{
+    padding: 3rem 0.5rem;
+  }
+  .contact{
+    display: block;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+      padding: 0.75rem;
+      margin-left: 10px !important;
+  }
+  iframe{
+    width: 30pc;
+    height: 30pc;
+  }
+}
+@media screen and (max-width: 800px) {
+  iframe{
+    width: 25pc;
+    height: 30pc;
+  }
+}
+@media screen and (max-width: 760px) {
+  iframe{
+    width: 20pc;
+    height: 20pc;
+  }
+  i{
+    margin-right: 15px;
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 675px) {
+  iframe{
+    width: 30pc;
+    height: 30pc;
+  }
+  .flx{
+    display: flex;
+    flex-direction: column;
+    margin-left: -0.75rem;
+      margin-right: -0.75rem;
+      margin-top: -0.75rem;
+  }
+  .section{
+    padding: 3rem 3rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  iframe{
+    width: 25pc;
+    height: 25pc;
+  }
+  .section{
+    padding: 3rem 7rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  iframe{
+    width: 20pc;
+    height: 20pc;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  iframe{
+    width: 18pc;
+    height: 18pc;
+  }
+  .section{
+    padding: 3rem 5rem;
+  }
+  
+}
+@media screen and (max-width: 420px) {
+  iframe{
+    width: 15pc;
+    height: 15pc;
+  }
+  
+}
+@media screen and (max-width: 380px) {
+  iframe{
+    width: 10pc;
+    height: 10pc;
+  }
+  .section{
+    padding: 3rem 3rem;
+  }
+  
+}
